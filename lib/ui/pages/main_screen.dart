@@ -113,7 +113,7 @@ class MainPageState extends State<MainPage> {
                   padding: const EdgeInsets.symmetric(horizontal: 5),
                   child: iconCreate(
                       icon: Icons.favorite,
-                      name: 'Favourites',
+                      name: 'Favourite',
                       isSelected: appState.isFavouriteSelected,
                       onPressed: () {
                         onPageSelected(1);
