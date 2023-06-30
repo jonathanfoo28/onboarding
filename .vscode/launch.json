@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "onboard",
+            "request": "launch",
+            "type": "dart",
+            "args": [
+                "-v" , "flavor" , "staging" , "--target" , "lib/main.dart"
+            ]
+        },
+        {
+            "name": "onboard (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "onboard (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "onboard (development)",
+            "request": "launch",
+            "type": "dart",
+            "args": ["-v", "flavor", "development", "--target", "lib/main.dart"]
+        }
+    ],
+    "compounds": [
+       
+        
+    ]
+}

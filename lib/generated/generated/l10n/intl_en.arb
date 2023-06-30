@@ -1,0 +1,8 @@
+{
+    "@@locale" : "en",
+    "WelcomeTitle" : "Welcome to pub.dev",
+    "SettingTitle" : "Settings",
+    "FavouriteTitle" : "Favourites",
+    "SettingDescriptionTitle" : "pub.Dev Package Searcher",
+    "Search" : "Search"
+}
